@@ -1,0 +1,22 @@
+{
+  "name": "assemien-dev/money-fusion-php",
+  "description": "SDK PHP officiel pour interagir avec l'API Money Fusion Pay (création et suivi de paiements).",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "AssemienDev",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MoneyFusion\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*"
+  }
+}
